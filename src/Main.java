@@ -7,9 +7,9 @@ public class Main {
 	public static void main(String[] args) {
 		scan = new Scanner(System.in);
 		
-		System.out.println("_______________________________");
-		System.out.println("Prova de Prog Orite Obj");
-		System.out.println("_______________________________");
+		System.out.println("-------------------------------");
+		System.out.println("Prova de Programação Orientada Objetos");
+		System.out.println("-------------------------------");
 		
 		do{
 			System.out.println("\n-------------------------------");
@@ -44,7 +44,7 @@ public class Main {
 					break;
 				
 				default:
-					System.out.println("Op��o inv�lida!!!");
+					System.out.println("Opção inválida!!!");
 					break;
 			}
 			
@@ -54,10 +54,10 @@ public class Main {
 	
 	public static void resposta1(){
 		System.out.println("-------------------------------");
-		System.out.println("Resposta da Quest�o 1");
+		System.out.println("Resposta da Questão 1");
 		System.out.println("-------------------------------");
-		System.out.println("Super � utilizado para acessar m�todos e vari�veis de uma classe Pai");
-		System.out.println("New � utilizado para instanciar um objeto e torna-lo acess�vel");
+		System.out.println("Super é utilizado para acessar métodos e variáveis de uma classe Pai");
+		System.out.println("New é utilizado para instanciar um objeto e torna-lo acessível");
 	}
 	
 	static public void testePonto2D(){
@@ -68,13 +68,13 @@ public class Main {
 		System.out.println("Teste Ponto 2D");
 		System.out.println("-------------------------------");
 		
-		System.out.println("Insira as Coordenadas do Ponto A, separado por um espa�o: ");
+		System.out.println("Insira as Coordenadas do Ponto A, separado por um espaço: ");
 		x = scan.nextInt();
 		y = scan.nextInt();
 		
 		A = new Ponto2D(x, y);
 		
-		System.out.println("Insira as Coordenadas do Ponto B, separado por um espa�o: ");
+		System.out.println("Insira as Coordenadas do Ponto B, separado por um espaço: ");
 		x = scan.nextInt();
 		y = scan.nextInt();
 		
@@ -97,7 +97,7 @@ public class Main {
 		System.out.println("-------------------------------");
 		
 		do{
-			System.out.println("Insira o N�mero de Colunas e Linhas, separado por um espa�o: ");
+			System.out.println("Insira o Número de Colunas e Linhas, separado por um espaço: ");
 			x = scan.nextInt();
 			y = scan.nextInt();
 			
@@ -127,7 +127,7 @@ public class Main {
 		char auxBolsista;
 		
 		System.out.println("-------------------------------");
-		System.out.println("Cadastro de Aluno Universit�rio");
+		System.out.println("Cadastro de Aluno Universitário");
 		System.out.println("-------------------------------");
 		System.out.println();
 		
@@ -167,7 +167,7 @@ public class Main {
 			scan.nextLine();
 		}while(auxBolsista != 'S' && auxBolsista != 'N');
 		
-		bolsista = (auxBolsista == 'S'? true: (auxBolsista == 'N'? false :null));
+		bolsista = (auxBolsista == 'S'? true: (auxBolsista == 'N'? false :false));
 
 		System.out.println("\n\n-------------------------");
 		AlunoUniversitario aluno = new AlunoUniversitario(
