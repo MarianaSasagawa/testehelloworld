@@ -31,8 +31,4 @@ public class AlunoUniversitario extends Aluno{
 				+"Curso: "+this.curso
 				+"\nBolsista: "+ (this.bolsista? "Sim": "Não");
 	}
-
-	public void imprimir(){
-		System.out.println(this);
-	}
 }
