@@ -8,7 +8,7 @@ public class Main {
 		scan = new Scanner(System.in);
 		
 		System.out.println("-------------------------------");
-		System.out.println("Prova de POO");
+		System.out.println("Prova de Programação Orientado à Objetos");
 		System.out.println("-------------------------------");
 		
 		do{
