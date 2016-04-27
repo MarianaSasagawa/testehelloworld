@@ -20,5 +20,5 @@ public abstract class Aluno {
 			   +"Matricula: "+this.matricula+"\n";
 	}
 	
-	
+
 }

@@ -13,11 +13,11 @@ public class Main {
 		
 		do{
 			System.out.println("\n-------------------------------");
-			System.out.println("Insira 1 para Resposta da Questão 1");
+			System.out.println("Insira 1 para Resposta da Pergunta 1");
 			System.out.println("Insira 2 para Teste de Ponto 2D");
-			System.out.println("Insira 3 para Matriz Identidade");
+			System.out.println("Insira 3 para Matriz");
 			System.out.println("Insira 4 para Vogais");
-			System.out.println("Insira 5 para Cadastrar um Aluno");
+			System.out.println("Insira 5 para Adicionar um Aluno");
 			System.out.println("Insira 0 para Sair");
 		
 			int opcao = scan.nextInt();
@@ -44,7 +44,7 @@ public class Main {
 					break;
 				
 				default:
-					System.out.println("Opção inválida!!!");
+					System.out.println("Opï¿½ï¿½o invï¿½lida!!!");
 					break;
 			}
 			
@@ -54,10 +54,10 @@ public class Main {
 	
 	public static void resposta1(){
 		System.out.println("-------------------------------");
-		System.out.println("Resposta da Questão 1");
+		System.out.println("Resposta da Questï¿½o 1");
 		System.out.println("-------------------------------");
-		System.out.println("Super é utilizado para acessar métodos e variáveis de uma classe Pai");
-		System.out.println("New é utilizado para instanciar um objeto e torna-lo acessível");
+		System.out.println("Super ï¿½ utilizado para acessar mï¿½todos e variï¿½veis de uma classe Pai");
+		System.out.println("New ï¿½ utilizado para instanciar um objeto e torna-lo acessï¿½vel");
 	}
 	
 	static public void testePonto2D(){
@@ -68,13 +68,13 @@ public class Main {
 		System.out.println("Teste Ponto 2D");
 		System.out.println("-------------------------------");
 		
-		System.out.println("Insira as Coordenadas do Ponto A, separado por um espaço: ");
+		System.out.println("Insira as Coordenadas do Ponto A, separado por um espaï¿½o: ");
 		x = scan.nextInt();
 		y = scan.nextInt();
 		
 		A = new Ponto2D(x, y);
 		
-		System.out.println("Insira as Coordenadas do Ponto B, separado por um espaço: ");
+		System.out.println("Insira as Coordenadas do Ponto B, separado por um espaï¿½o: ");
 		x = scan.nextInt();
 		y = scan.nextInt();
 		
@@ -97,7 +97,7 @@ public class Main {
 		System.out.println("-------------------------------");
 		
 		do{
-			System.out.println("Insira o Número de Colunas e Linhas, separado por um espaço: ");
+			System.out.println("Insira o Nï¿½mero de Colunas e Linhas, separado por um espaï¿½o: ");
 			x = scan.nextInt();
 			y = scan.nextInt();
 			
@@ -127,7 +127,7 @@ public class Main {
 		char auxBolsista;
 		
 		System.out.println("-------------------------------");
-		System.out.println("Cadastro de Aluno Universitário");
+		System.out.println("Cadastro de Aluno Universitï¿½rio");
 		System.out.println("-------------------------------");
 		System.out.println();
 		
