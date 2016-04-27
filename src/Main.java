@@ -57,7 +57,7 @@ public class Main {
 		System.out.println("Resposta da Questão 1");
 		System.out.println("-------------------------------");
 		System.out.println("Super é utilizado para acessar métodos e variáveis de uma classe Pai");
-		System.out.println("New é utilizado para instanciar um objeto e torna-lo acessível");
+		System.out.println("New é utilizado para instanciar um objeto e torná-lo acessível");
 	}
 	
 	static public void testePonto2D(){
@@ -145,7 +145,7 @@ public class Main {
 		
 		
 		do{
-			System.out.print("Matricula: ");
+			System.out.print("Matrícula: ");
 			matricula = scan.nextLine();
 		}while(matricula.length() < 3);
 		
