@@ -7,17 +7,17 @@ public class Main {
 	public static void main(String[] args) {
 		scan = new Scanner(System.in);
 		
-		System.out.println("-------------------------------");
+		System.out.println("---------------------------------------");
 		System.out.println("Prova de Programação Orientada Objetos");
-		System.out.println("-------------------------------");
+		System.out.println("---------------------------------------");
 		
 		do{
 			System.out.println("\n-------------------------------");
-			System.out.println("Insira 1 para Resposta da Pergunta 1");
+			System.out.println("Insira 1 para Resposta da Questão 1");
 			System.out.println("Insira 2 para Teste de Ponto 2D");
-			System.out.println("Insira 3 para Matriz");
+			System.out.println("Insira 3 para Matriz Identidade");
 			System.out.println("Insira 4 para Vogais");
-			System.out.println("Insira 5 para Adicionar um Aluno");
+			System.out.println("Insira 5 para Cadastrar um Aluno");
 			System.out.println("Insira 0 para Sair");
 		
 			int opcao = scan.nextInt();
