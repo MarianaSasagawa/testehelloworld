@@ -7,9 +7,9 @@ public class Main {
 	public static void main(String[] args) {
 		scan = new Scanner(System.in);
 		
-		System.out.println("---------------------------------------");
+		System.out.println("-------------------------------");
 		System.out.println("Prova de Programação Orientada Objetos");
-		System.out.println("---------------------------------------");
+		System.out.println("-------------------------------");
 		
 		do{
 			System.out.println("\n-------------------------------");

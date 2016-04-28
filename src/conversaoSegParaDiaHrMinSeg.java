@@ -3,10 +3,6 @@ import java.util.Scanner;
 
 public class conversaoSegParaDiaHrMinSeg {
 	
-	/**
-	 * @param args
-	 */
-	
 	private static Scanner scan;	// lê o que for digitado
 	
 	public static void main(String[] args) {
