@@ -29,7 +29,7 @@ public class AlunoUniversitario extends Aluno{
 	public String toString(){
 		return super.toString()
 				+"Curso: "+this.curso
-				+"\nBolsista: "+ (this.bolsista? "Sim": "Não");
+				+"\nBolsista: "+ (this.bolsista? "Sim": "NÃ£o");
 	}
 
 	public void imprimir(){
